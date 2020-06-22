@@ -1,0 +1,60 @@
+.dis {
+  display: flex;
+
+  overflow-x: hidden;
+  overflow-y: hidden;
+  background-color: white;
+}
+.area {
+  display: inline-block;
+  background-color: #81d4fa;
+  margin-right: 2px;
+}
+
+label {
+  color: #1976d2 !important;
+  font-size: 25px;
+  font-weight: bolder;
+  margin-right: 4mm;
+}
+
+button {
+  margin-left: 40px !important ;
+  color: white;
+  outline: none !important ;
+  border: 2px solid #1976d2;
+  padding: 1mm 3mm 1mm 3mm;
+  border-radius: 2mm !important;
+  font-weight: bold;
+
+  background-color: #1976d2;
+}
+
+button:hover {
+  background-color: white;
+  border: 2px solid #1976d2;
+  color: #1976d2;
+}
+
+input {
+  color: #34d2eb !important;
+  background: teal;
+}
+
+.navbar {
+  background-color: #ba4a00;
+  padding-top: 5mm !important;
+
+  padding-bottom: 10mm !important;
+}
+
+.navbar-nav .navbar-center {
+  position: absolute !important;
+  left: 50% !important;
+  transform: translatex(-50%) !important;
+}
+
+.navbar-brand {
+  margin-bottom: 2mm;
+  margin-right: 20mm !important ;
+}
